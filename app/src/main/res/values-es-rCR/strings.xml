@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ProyectoPersonal</string>
+    <string name="UserDoesntExist">El usuario no existe</string>
+    <string name="FoodDoesntExist">La comida no existe</string>
+    <string name="save">Guardar</string>
+    <string name="accept">Aceptar</string>
+    <string name="delete">Eliminar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="profile">Perfil</string>
+    <string name="food">Comidas</string>
+    <string name="btnlogin">Iniciar Sesion</string>
+</resources>
