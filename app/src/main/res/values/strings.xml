@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">ProyectoPersonal</string>
+    <string name="UserDoesntExist">The user does not exist</string>
+    <string name="FoodDoesntExist">The food does not exist</string>
+    <string name="save">Save</string>
+    <string name="accept">Accept</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="profile">Profile</string>
+    <string name="food">Food</string>
+    <string name="btnlogin">Login</string>
 </resources>
