@@ -9,4 +9,7 @@
     <string name="profile">Profile</string>
     <string name="food">Food</string>
     <string name="btnlogin">Login</string>
+    <string name="closedialog">Close app?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
 </resources>

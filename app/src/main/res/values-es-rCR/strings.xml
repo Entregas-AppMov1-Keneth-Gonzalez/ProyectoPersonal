@@ -10,4 +10,7 @@
     <string name="profile">Perfil</string>
     <string name="food">Comidas</string>
     <string name="btnlogin">Iniciar Sesion</string>
+    <string name="closedialog">Desea cerrar la aplicacion?</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
 </resources>
