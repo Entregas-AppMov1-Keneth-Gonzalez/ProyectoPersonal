@@ -13,6 +13,12 @@
         android:theme="@style/Theme.ProyectoPersonal"
         tools:targetApi="31">
         <activity
+            android:name=".AddComidasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddPersonasActivity"
+            android:exported="false" />
+        <activity
             android:name=".NotificacionesActivity"
             android:exported="false" />
         <activity

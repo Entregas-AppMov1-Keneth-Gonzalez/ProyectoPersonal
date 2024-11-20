@@ -1,4 +1,4 @@
 package Entities
 
-class User {
+class Comida {
 }
