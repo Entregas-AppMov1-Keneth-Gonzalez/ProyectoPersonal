@@ -31,9 +31,9 @@ class PersonCustomListActivity : AppCompatActivity() {
         val adapter = PersonListAdapter(this, R.layout.person_item_list, personList)
         lstCustomList.adapter = adapter
 
-        lstCustomList.onItemClickListener = AdapterView.OnItemClickListener{ parent, view, position, id ->
-            val fullName = personList[position].FullDescription
-            util.openActivity(this, AddPersonasActivity::class.java, EXTRA_MESSAGE_ID, fullName)
+        lstCustomList.onItemClickListener = AdapterView.OnItemClickListener { _, _, position, _ ->
+            val personId = personList[position].Id
+            util.openActivity(this, AddPersonasActivity::class.java, EXTRA_MESSAGE_ID, personId)
         }
     }
 }

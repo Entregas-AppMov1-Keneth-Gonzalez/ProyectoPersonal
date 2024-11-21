@@ -1,5 +1,6 @@
 package model
 
+import Database.PersonDatabaseManager
 import android.content.Context
 import cr.ac.utn.kenethgonzalez.proyectopersonal.R
 import Entities.Person
@@ -7,7 +8,8 @@ import cr.ac.utn.kenethgonzalez.proyectopersonal.PersonDBManager
 import cr.ac.utn.kenethgonzalez.proyectopersonal.PersonMemoryManager
 
 class PersonModel(context: Context) {
-    private var persondbManager: PersonDBManager = PersonMemoryManager
+    //private var persondbManager: PersonDBManager = PersonMemoryManager
+    private var persondbManager: PersonDBManager = PersonDatabaseManager(context)
     private val _context: Context = context
 
     fun addPerson(person: Person) {

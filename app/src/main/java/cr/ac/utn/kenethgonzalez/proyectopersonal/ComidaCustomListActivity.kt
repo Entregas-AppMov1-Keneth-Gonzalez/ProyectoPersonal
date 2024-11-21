@@ -31,9 +31,9 @@ class ComidaCustomListActivity : AppCompatActivity() {
         val adapter = ComidaListAdapter(this, R.layout.person_item_list, comidaList)
         lstCustomList.adapter = adapter
 
-        lstCustomList.onItemClickListener = AdapterView.OnItemClickListener{ parent, view, position, id ->
-            val fullName = comidaList[position].FullDescription
-            util.openActivity(this, AddComidasActivity::class.java, EXTRA_MESSAGE_ID, fullName)
+        lstCustomList.onItemClickListener = AdapterView.OnItemClickListener { _, _, position, _ ->
+            val comidaId = comidaList[position].Id
+            util.openActivity(this, AddComidasActivity::class.java, EXTRA_MESSAGE_ID, comidaId)
         }
     }
 }
