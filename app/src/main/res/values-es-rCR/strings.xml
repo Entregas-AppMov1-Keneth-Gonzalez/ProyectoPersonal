@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ProyectoPersonal</string>
+    <string name="food_NotFound">Comida no encontrada</string>
+    <string name="person_NotFound">Persona no encontrada</string>
+    <string name="var_ID">Identificacion</string>
+    <string name="var_Name">Nombre</string>
+    <string name="var_LastName">Apellido</string>
+    <string name="var_Phone">Telefono</string>
+    <string name="var_Email">Correo Electronico</string>
+    <string name="var_Rol">Rol</string>
+    <string name="btn_AddPhoto">Añadir Foto</string>
+    <string name="photo">Foto</string>
+    <string name="err_Photo">Error al Tomar Foto</string>
+    <string name="takePhoto">Tomar Foto</string>
+    <string name="pickFromGallery">Elegir de Galeria</string>
+    <string name="CameraPermissionDenied">Perniso de Camara Denegado</string>
+    <string name="cameraisnotavalilable">Camara no disponible</string>
+    <string name="Save">Guardar</string>
+    <string name="Cancel">Cancelar</string>
+    <string name="Delete">Eliminar</string>
+    <string name="saved">Guardado</string>
+    <string name="FieldsRequired">Campos Requeridos</string>
+    <string name="dialog_Delete">Eliminar?</string>
+    <string name="Add">Añadir</string>
+    <string name="ViewList">Ver Lista</string>
+    <string name="btn_addPerson">Añadir Persona</string>
+    <string name="btn_ListPerson">Ver Lista de Personas</string>
+    <string name="btn_CustomPersonList">Lista Personalizada de Personas</string>
+    <string name="btn_CloseApp">Cerrar App?</string>
+    <string name="Yes">Si</string>
+    <string name="No">No</string>
+    <string name="price">Precio</string>
+    <string name="Description">Descripcion</string>
+    <string name="btn_AddComida">Añadir Comida</string>
+    <string name="btn_ViewFoodList">Ver Lista de Comida</string>
+    <string name="btn_ViewCustomFoodList">Lista Personalizada de Comidas</string>
+</resources>

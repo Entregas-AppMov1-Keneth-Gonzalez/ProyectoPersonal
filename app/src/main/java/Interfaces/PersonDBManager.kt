@@ -1,12 +1,12 @@
 package cr.ac.utn.kenethgonzalez.proyectopersonal
 
-import identities.Identifier
+import Entities.Person
 
 interface PersonDBManager {
-    fun add (obj: Identifier)
-    fun update (obj: Identifier)
+    fun add (obj: Person)
+    fun update (obj: Person)
     fun remove (id: String)
-    fun getAll(): List<Identifier>
-    fun getByid(id: String): Identifier?
-    fun getByFullDescription(fullDescription: String): Identifier?
+    fun getAll(): List<Person>
+    fun getByid(id: String): Person?
+    fun getByFullDescription(fullDescription: String): Person?
 }

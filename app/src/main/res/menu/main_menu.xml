@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_addFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/btn_AddComida" />
+    <item
+        android:id="@+id/menu_foodList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/btn_ViewFoodList" />
+    <item
+        android:id="@+id/menu_addPerson"
+        android:title="@string/Add" />
+    <item
+        android:id="@+id/menu_personList"
+        android:title="@string/ViewList" />
+</menu>

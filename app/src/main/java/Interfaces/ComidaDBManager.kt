@@ -1,12 +1,12 @@
 package cr.ac.utn.kenethgonzalez.proyectopersonal
 
-import identities.Identifier
+import Entities.Comida
 
 interface ComidaDBManager {
-    fun add (obj: Identifier)
-    fun update (obj: Identifier)
+    fun add (obj: Comida)
+    fun update (obj: Comida)
     fun remove (id: String)
-    fun getAll(): List<Identifier>
-    fun getByid(id: String): Identifier?
-    fun getByFullDescription(fullDescription: String): Identifier?
+    fun getAll(): List<Comida>
+    fun getByid(id: String): Comida?
+    fun getByFullDescription(fullDescription: String): Comida?
 }

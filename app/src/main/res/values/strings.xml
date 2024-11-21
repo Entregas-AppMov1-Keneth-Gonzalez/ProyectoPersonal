@@ -1,3 +1,37 @@
 <resources>
     <string name="app_name">ProyectoPersonal</string>
+    <string name="food_NotFound">Food not Found</string>
+    <string name="person_NotFound">Person not Found</string>
+    <string name="var_ID">ID</string>
+    <string name="var_Name">Name</string>
+    <string name="var_LastName">Last Name</string>
+    <string name="var_Phone">Phone</string>
+    <string name="var_Email">Email</string>
+    <string name="var_Rol">Rol</string>
+    <string name="btn_AddPhoto">Add Photo</string>
+    <string name="photo">Photo</string>
+    <string name="err_Photo">Error Takin Photo</string>
+    <string name="takePhoto">Take Photo</string>
+    <string name="pickFromGallery">Pick From Gallery</string>
+    <string name="CameraPermissionDenied">Camera Permission Denied</string>
+    <string name="cameraisnotavalilable">Camera is not Avalilable</string>
+    <string name="Save">Save</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Delete">Delete</string>
+    <string name="saved">Saved</string>
+    <string name="FieldsRequired">Fields Required</string>
+    <string name="dialog_Delete">Delete?</string>
+    <string name="Add">Add</string>
+    <string name="ViewList">View List</string>
+    <string name="btn_addPerson">Add Person</string>
+    <string name="btn_ListPerson">View Person List</string>
+    <string name="btn_CustomPersonList">Custom Person List</string>
+    <string name="btn_CloseApp">Close App</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="price">Price</string>
+    <string name="Description">Description</string>
+    <string name="btn_AddComida">Add Food</string>
+    <string name="btn_ViewFoodList">View Food List</string>
+    <string name="btn_ViewCustomFoodList">View Custom Food List</string>
 </resources>

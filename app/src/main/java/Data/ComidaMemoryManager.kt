@@ -1,41 +1,41 @@
 package cr.ac.utn.kenethgonzalez.proyectopersonal
 
-import cr.ac.utn.appmovil.interfaces.IDBManager
-import identities.Identifier
+import cr.ac.utn.kenethgonzalez.proyectopersonal.ComidaDBManager
+import Entities.Comida
 
-object ComidaMemoryManager: IDBManager {
-    private var objectList = mutableListOf<Identifier>()
+object ComidaMemoryManager: ComidaDBManager {
+    private var comidaList = mutableListOf<Comida>()
 
-    override fun add (obj: Identifier){
-        objectList.add(obj)
+    override fun add (obj: Comida){
+        comidaList.add(obj)
     }
-    override fun update (obj: Identifier){
+    override fun update (obj: Comida){
         remove(obj.Id)
-        objectList.add(obj)
+        comidaList.add(obj)
 
     }
     override fun remove (id: String){
-        objectList.removeIf { it.Id.trim() == id.trim() }
+        comidaList.removeIf { it.Id.trim() == id.trim() }
     }
 
-    fun remove (obj: Identifier){
-        objectList.remove(obj)
+    fun remove (obj: Comida){
+        comidaList.remove(obj)
     }
 
-    override fun getAll(): List<Identifier> = objectList.toList()
+    override fun getAll(): List<Comida> = comidaList.toList()
 
-    override fun getByid(id: String): Identifier? {
+    override fun getByid(id: String): Comida? {
         try {
-            var result = objectList.filter { (it.Id) == id }
+            var result = comidaList.filter { (it.Id) == id }
             return if(!result.any()) null else result[0]
         }catch (e: Exception){
             throw e
         }
     }
 
-    override fun getByFullDescription(fullDescription: String): Identifier? {
+    override fun getByFullDescription(fullDescription: String): Comida? {
         try {
-            var result = objectList.filter { (it.FullDescription) == fullDescription }
+            var result = comidaList.filter { (it.FullDescription) == fullDescription }
             return if(!result.any()) null else result[0]
         }catch (e: Exception){
             throw e
