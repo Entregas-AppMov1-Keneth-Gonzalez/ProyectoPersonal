@@ -1,13 +1,17 @@
 package model
 
+import Database.ComidaDatabaseManager
+import Database.PersonDatabaseManager
 import android.content.Context
 import cr.ac.utn.kenethgonzalez.proyectopersonal.R
 import Entities.Comida
 import cr.ac.utn.kenethgonzalez.proyectopersonal.ComidaDBManager
 import cr.ac.utn.kenethgonzalez.proyectopersonal.ComidaMemoryManager
+import cr.ac.utn.kenethgonzalez.proyectopersonal.PersonDBManager
 
 class ComidaModel(context: Context) {
-    private var comidadbManager: ComidaDBManager = ComidaMemoryManager
+    //private var comidadbManager: ComidaDBManager = ComidaMemoryManager
+    private var comidadbManager: ComidaDBManager = ComidaDatabaseManager(context)
     private val _context: Context = context
 
     fun addComida(comida: Comida) {
